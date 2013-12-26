@@ -7,7 +7,7 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "YES"
             buildForProfiling = "YES"
             buildForArchiving = "YES"
@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Scorekeeper (No Sport).xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "950A687917F4D702007C20D8"
+               BuildableName = "Scorekeeper (No Sport)Tests.xctest"
+               BlueprintName = "Scorekeeper (No Sport)Tests"
+               ReferencedContainer = "container:Scorekeeper (No Sport).xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -28,16 +42,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "950A687917F4D702007C20D8"
-               BuildableName = "Scorekeeper (No Sport)Tests.xctest"
-               BlueprintName = "Scorekeeper (No Sport)Tests"
-               ReferencedContainer = "container:Scorekeeper (No Sport).xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

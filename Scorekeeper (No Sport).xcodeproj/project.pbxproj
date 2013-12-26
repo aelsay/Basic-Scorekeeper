@@ -14,13 +14,30 @@
 		950A686917F4D702007C20D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A686817F4D702007C20D8 /* main.m */; };
 		950A686D17F4D702007C20D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A686C17F4D702007C20D8 /* AppDelegate.m */; };
 		950A687017F4D702007C20D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 950A686E17F4D702007C20D8 /* Main.storyboard */; };
-		950A687317F4D702007C20D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A687217F4D702007C20D8 /* ViewController.m */; };
+		950A687317F4D702007C20D8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A687217F4D702007C20D8 /* MainViewController.m */; };
 		950A687517F4D702007C20D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 950A687417F4D702007C20D8 /* Images.xcassets */; };
 		950A687C17F4D702007C20D8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950A687B17F4D702007C20D8 /* XCTest.framework */; };
 		950A687D17F4D702007C20D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950A685C17F4D702007C20D8 /* Foundation.framework */; };
 		950A687E17F4D702007C20D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 950A686017F4D702007C20D8 /* UIKit.framework */; };
 		950A688617F4D702007C20D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 950A688417F4D702007C20D8 /* InfoPlist.strings */; };
 		950A688817F4D702007C20D8 /* Scorekeeper__No_Sport_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A688717F4D702007C20D8 /* Scorekeeper__No_Sport_Tests.m */; };
+		950A689317F4E39A007C20D8 /* ScorekeeperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A689217F4E39A007C20D8 /* ScorekeeperCell.m */; };
+		950A689617F5072B007C20D8 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A689517F5072B007C20D8 /* Player.m */; };
+		95B8F1EE17F635B4001152F4 /* TimerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B8F1ED17F635B4001152F4 /* TimerCell.m */; };
+		95B8F1F117F660A1001152F4 /* TimerPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B8F1F017F660A1001152F4 /* TimerPickerCell.m */; };
+		95B8F1F417F92D01001152F4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B8F1F317F92D01001152F4 /* Social.framework */; };
+		95B8F27A17FA0FB1001152F4 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27017FA0FB1001152F4 /* AppIcon29x29.png */; };
+		95B8F27B17FA0FB1001152F4 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27117FA0FB1001152F4 /* AppIcon29x29@2x.png */; };
+		95B8F27C17FA0FB1001152F4 /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27217FA0FB1001152F4 /* AppIcon40x40.png */; };
+		95B8F27D17FA0FB1001152F4 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27317FA0FB1001152F4 /* AppIcon40x40@2x.png */; };
+		95B8F27E17FA0FB1001152F4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27417FA0FB1001152F4 /* Icon.png */; };
+		95B8F27F17FA0FB1001152F4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27517FA0FB1001152F4 /* Icon@2x.png */; };
+		95B8F28017FA0FB1001152F4 /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27617FA0FB1001152F4 /* AppIcon76x76.png */; };
+		95B8F28117FA0FB1001152F4 /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27717FA0FB1001152F4 /* AppIcon76x76@2x.png */; };
+		95B8F28217FA0FB1001152F4 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27817FA0FB1001152F4 /* iTunesArtwork.png */; };
+		95B8F28317FA0FB1001152F4 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F27917FA0FB1001152F4 /* iTunesArtwork@2x.png */; };
+		95B8F28717FA19ED001152F4 /* timer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 95B8F28617FA19ED001152F4 /* timer.wav */; };
+		95B8F28917FA19FA001152F4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95B8F28817FA19FA001152F4 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +62,35 @@
 		950A686B17F4D702007C20D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		950A686C17F4D702007C20D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		950A686F17F4D702007C20D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		950A687117F4D702007C20D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		950A687217F4D702007C20D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		950A687117F4D702007C20D8 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		950A687217F4D702007C20D8 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		950A687417F4D702007C20D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		950A687A17F4D702007C20D8 /* Scorekeeper (No Sport)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scorekeeper (No Sport)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		950A687B17F4D702007C20D8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		950A688317F4D702007C20D8 /* Scorekeeper (No Sport)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Scorekeeper (No Sport)Tests-Info.plist"; sourceTree = "<group>"; };
 		950A688517F4D702007C20D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		950A688717F4D702007C20D8 /* Scorekeeper__No_Sport_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scorekeeper__No_Sport_Tests.m; sourceTree = "<group>"; };
+		950A689117F4E39A007C20D8 /* ScorekeeperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScorekeeperCell.h; path = ../ScorekeeperCell.h; sourceTree = "<group>"; };
+		950A689217F4E39A007C20D8 /* ScorekeeperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScorekeeperCell.m; path = ../ScorekeeperCell.m; sourceTree = "<group>"; };
+		950A689417F5072B007C20D8 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = ../Player.h; sourceTree = "<group>"; };
+		950A689517F5072B007C20D8 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = ../Player.m; sourceTree = "<group>"; };
+		95B8F1EC17F635B4001152F4 /* TimerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerCell.h; path = ../TimerCell.h; sourceTree = "<group>"; };
+		95B8F1ED17F635B4001152F4 /* TimerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerCell.m; path = ../TimerCell.m; sourceTree = "<group>"; };
+		95B8F1EF17F660A1001152F4 /* TimerPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimerPickerCell.h; path = ../TimerPickerCell.h; sourceTree = "<group>"; };
+		95B8F1F017F660A1001152F4 /* TimerPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimerPickerCell.m; path = ../TimerPickerCell.m; sourceTree = "<group>"; };
+		95B8F1F317F92D01001152F4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		95B8F27017FA0FB1001152F4 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		95B8F27117FA0FB1001152F4 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		95B8F27217FA0FB1001152F4 /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		95B8F27317FA0FB1001152F4 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		95B8F27417FA0FB1001152F4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		95B8F27517FA0FB1001152F4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		95B8F27617FA0FB1001152F4 /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		95B8F27717FA0FB1001152F4 /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		95B8F27817FA0FB1001152F4 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		95B8F27917FA0FB1001152F4 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		95B8F28617FA19ED001152F4 /* timer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = timer.wav; sourceTree = "<group>"; };
+		95B8F28817FA19FA001152F4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B8F28917FA19FA001152F4 /* AVFoundation.framework in Frameworks */,
+				95B8F1F417F92D01001152F4 /* Social.framework in Frameworks */,
 				950A685F17F4D702007C20D8 /* CoreGraphics.framework in Frameworks */,
 				950A686117F4D702007C20D8 /* UIKit.framework in Frameworks */,
 				950A685D17F4D702007C20D8 /* Foundation.framework in Frameworks */,
@@ -82,7 +122,7 @@
 		950A685017F4D702007C20D8 = {
 			isa = PBXGroup;
 			children = (
-				950A686217F4D702007C20D8 /* Scorekeeper (No Sport) */,
+				950A686217F4D702007C20D8 /* Scorekeeper */,
 				950A688117F4D702007C20D8 /* Scorekeeper (No Sport)Tests */,
 				950A685B17F4D702007C20D8 /* Frameworks */,
 				950A685A17F4D702007C20D8 /* Products */,
@@ -101,6 +141,8 @@
 		950A685B17F4D702007C20D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95B8F28817FA19FA001152F4 /* AVFoundation.framework */,
+				95B8F1F317F92D01001152F4 /* Social.framework */,
 				950A685C17F4D702007C20D8 /* Foundation.framework */,
 				950A685E17F4D702007C20D8 /* CoreGraphics.framework */,
 				950A686017F4D702007C20D8 /* UIKit.framework */,
@@ -109,23 +151,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		950A686217F4D702007C20D8 /* Scorekeeper (No Sport) */ = {
+		950A686217F4D702007C20D8 /* Scorekeeper */ = {
 			isa = PBXGroup;
 			children = (
-				950A686B17F4D702007C20D8 /* AppDelegate.h */,
-				950A686C17F4D702007C20D8 /* AppDelegate.m */,
+				950A689117F4E39A007C20D8 /* ScorekeeperCell.h */,
+				950A689217F4E39A007C20D8 /* ScorekeeperCell.m */,
+				95B8F1EF17F660A1001152F4 /* TimerPickerCell.h */,
+				95B8F1F017F660A1001152F4 /* TimerPickerCell.m */,
+				95B8F1EC17F635B4001152F4 /* TimerCell.h */,
+				95B8F1ED17F635B4001152F4 /* TimerCell.m */,
+				95B8F1F217F662AA001152F4 /* TableViewCells */,
 				950A686E17F4D702007C20D8 /* Main.storyboard */,
-				950A687117F4D702007C20D8 /* ViewController.h */,
-				950A687217F4D702007C20D8 /* ViewController.m */,
+				950A687117F4D702007C20D8 /* MainViewController.h */,
+				950A687217F4D702007C20D8 /* MainViewController.m */,
 				950A687417F4D702007C20D8 /* Images.xcassets */,
 				950A686317F4D702007C20D8 /* Supporting Files */,
 			);
+			name = Scorekeeper;
 			path = "Scorekeeper (No Sport)";
 			sourceTree = "<group>";
 		};
 		950A686317F4D702007C20D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95B8F28617FA19ED001152F4 /* timer.wav */,
+				95B8F28517FA1105001152F4 /* Icon Files */,
+				950A686B17F4D702007C20D8 /* AppDelegate.h */,
+				950A686C17F4D702007C20D8 /* AppDelegate.m */,
+				950A689417F5072B007C20D8 /* Player.h */,
+				950A689517F5072B007C20D8 /* Player.m */,
 				950A686417F4D702007C20D8 /* Scorekeeper (No Sport)-Info.plist */,
 				950A686517F4D702007C20D8 /* InfoPlist.strings */,
 				950A686817F4D702007C20D8 /* main.m */,
@@ -150,6 +204,30 @@
 				950A688417F4D702007C20D8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95B8F1F217F662AA001152F4 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		95B8F28517FA1105001152F4 /* Icon Files */ = {
+			isa = PBXGroup;
+			children = (
+				95B8F27017FA0FB1001152F4 /* AppIcon29x29.png */,
+				95B8F27117FA0FB1001152F4 /* AppIcon29x29@2x.png */,
+				95B8F27217FA0FB1001152F4 /* AppIcon40x40.png */,
+				95B8F27317FA0FB1001152F4 /* AppIcon40x40@2x.png */,
+				95B8F27417FA0FB1001152F4 /* Icon.png */,
+				95B8F27517FA0FB1001152F4 /* Icon@2x.png */,
+				95B8F27617FA0FB1001152F4 /* AppIcon76x76.png */,
+				95B8F27717FA0FB1001152F4 /* AppIcon76x76@2x.png */,
+				95B8F27817FA0FB1001152F4 /* iTunesArtwork.png */,
+				95B8F27917FA0FB1001152F4 /* iTunesArtwork@2x.png */,
+			);
+			name = "Icon Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +277,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Aperture Mobile";
 				TargetAttributes = {
+					950A685817F4D702007C20D8 = {
+						DevelopmentTeam = 83QWKBJ763;
+					};
 					950A687917F4D702007C20D8 = {
 						TestTargetID = 950A685817F4D702007C20D8;
 					};
@@ -229,8 +310,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				950A687517F4D702007C20D8 /* Images.xcassets in Resources */,
+				95B8F27F17FA0FB1001152F4 /* Icon@2x.png in Resources */,
+				95B8F27E17FA0FB1001152F4 /* Icon.png in Resources */,
+				95B8F27C17FA0FB1001152F4 /* AppIcon40x40.png in Resources */,
+				95B8F27D17FA0FB1001152F4 /* AppIcon40x40@2x.png in Resources */,
+				95B8F27B17FA0FB1001152F4 /* AppIcon29x29@2x.png in Resources */,
+				95B8F28217FA0FB1001152F4 /* iTunesArtwork.png in Resources */,
 				950A686717F4D702007C20D8 /* InfoPlist.strings in Resources */,
+				95B8F28117FA0FB1001152F4 /* AppIcon76x76@2x.png in Resources */,
 				950A687017F4D702007C20D8 /* Main.storyboard in Resources */,
+				95B8F28717FA19ED001152F4 /* timer.wav in Resources */,
+				95B8F28317FA0FB1001152F4 /* iTunesArtwork@2x.png in Resources */,
+				95B8F27A17FA0FB1001152F4 /* AppIcon29x29.png in Resources */,
+				95B8F28017FA0FB1001152F4 /* AppIcon76x76.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +341,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950A687317F4D702007C20D8 /* ViewController.m in Sources */,
+				950A689317F4E39A007C20D8 /* ScorekeeperCell.m in Sources */,
+				950A687317F4D702007C20D8 /* MainViewController.m in Sources */,
 				950A686D17F4D702007C20D8 /* AppDelegate.m in Sources */,
+				95B8F1EE17F635B4001152F4 /* TimerCell.m in Sources */,
+				95B8F1F117F660A1001152F4 /* TimerPickerCell.m in Sources */,
 				950A686917F4D702007C20D8 /* main.m in Sources */,
+				950A689617F5072B007C20D8 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scorekeeper (No Sport)/Scorekeeper (No Sport)-Prefix.pch";
 				INFOPLIST_FILE = "Scorekeeper (No Sport)/Scorekeeper (No Sport)-Info.plist";
@@ -391,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scorekeeper (No Sport)/Scorekeeper (No Sport)-Prefix.pch";
 				INFOPLIST_FILE = "Scorekeeper (No Sport)/Scorekeeper (No Sport)-Info.plist";
@@ -460,6 +558,7 @@
 				950A688D17F4D702007C20D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		950A688E17F4D702007C20D8 /* Build configuration list for PBXNativeTarget "Scorekeeper (No Sport)Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +567,7 @@
 				950A689017F4D702007C20D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
